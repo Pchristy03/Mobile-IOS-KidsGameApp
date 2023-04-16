@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACEF45D029EC7255006FDB8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEF45CF29EC7255006FDB8F /* AppDelegate.swift */; };
+		ACEF45D229EC7255006FDB8F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEF45D129EC7255006FDB8F /* SceneDelegate.swift */; };
+		ACEF45D429EC7255006FDB8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEF45D329EC7255006FDB8F /* ViewController.swift */; };
+		ACEF45D729EC7255006FDB8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACEF45D529EC7255006FDB8F /* Main.storyboard */; };
+		ACEF45D929EC7256006FDB8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACEF45D829EC7256006FDB8F /* Assets.xcassets */; };
+		ACEF45DC29EC7256006FDB8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACEF45DA29EC7256006FDB8F /* LaunchScreen.storyboard */; };
+		ACEF45E729EC7256006FDB8F /* kidsGamesAndLearningAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEF45E629EC7256006FDB8F /* kidsGamesAndLearningAppTests.swift */; };
+		ACEF45F129EC7256006FDB8F /* kidsGamesAndLearningAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEF45F029EC7256006FDB8F /* kidsGamesAndLearningAppUITests.swift */; };
+		ACEF45F329EC7256006FDB8F /* kidsGamesAndLearningAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEF45F229EC7256006FDB8F /* kidsGamesAndLearningAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACEF45E329EC7256006FDB8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACEF45C429EC7255006FDB8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACEF45CB29EC7255006FDB8F;
+			remoteInfo = kidsGamesAndLearningApp;
+		};
+		ACEF45ED29EC7256006FDB8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACEF45C429EC7255006FDB8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACEF45CB29EC7255006FDB8F;
+			remoteInfo = kidsGamesAndLearningApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACEF45CC29EC7255006FDB8F /* kidsGamesAndLearningApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kidsGamesAndLearningApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACEF45CF29EC7255006FDB8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACEF45D129EC7255006FDB8F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ACEF45D329EC7255006FDB8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACEF45D629EC7255006FDB8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACEF45D829EC7256006FDB8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACEF45DB29EC7256006FDB8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACEF45DD29EC7256006FDB8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACEF45E229EC7256006FDB8F /* kidsGamesAndLearningAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kidsGamesAndLearningAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACEF45E629EC7256006FDB8F /* kidsGamesAndLearningAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kidsGamesAndLearningAppTests.swift; sourceTree = "<group>"; };
+		ACEF45EC29EC7256006FDB8F /* kidsGamesAndLearningAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kidsGamesAndLearningAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACEF45F029EC7256006FDB8F /* kidsGamesAndLearningAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kidsGamesAndLearningAppUITests.swift; sourceTree = "<group>"; };
+		ACEF45F229EC7256006FDB8F /* kidsGamesAndLearningAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kidsGamesAndLearningAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACEF45C929EC7255006FDB8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACEF45DF29EC7256006FDB8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACEF45E929EC7256006FDB8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACEF45C329EC7255006FDB8F = {
+			isa = PBXGroup;
+			children = (
+				ACEF45CE29EC7255006FDB8F /* kidsGamesAndLearningApp */,
+				ACEF45E529EC7256006FDB8F /* kidsGamesAndLearningAppTests */,
+				ACEF45EF29EC7256006FDB8F /* kidsGamesAndLearningAppUITests */,
+				ACEF45CD29EC7255006FDB8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACEF45CD29EC7255006FDB8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACEF45CC29EC7255006FDB8F /* kidsGamesAndLearningApp.app */,
+				ACEF45E229EC7256006FDB8F /* kidsGamesAndLearningAppTests.xctest */,
+				ACEF45EC29EC7256006FDB8F /* kidsGamesAndLearningAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACEF45CE29EC7255006FDB8F /* kidsGamesAndLearningApp */ = {
+			isa = PBXGroup;
+			children = (
+				ACEF45CF29EC7255006FDB8F /* AppDelegate.swift */,
+				ACEF45D129EC7255006FDB8F /* SceneDelegate.swift */,
+				ACEF45D329EC7255006FDB8F /* ViewController.swift */,
+				ACEF45D529EC7255006FDB8F /* Main.storyboard */,
+				ACEF45D829EC7256006FDB8F /* Assets.xcassets */,
+				ACEF45DA29EC7256006FDB8F /* LaunchScreen.storyboard */,
+				ACEF45DD29EC7256006FDB8F /* Info.plist */,
+			);
+			path = kidsGamesAndLearningApp;
+			sourceTree = "<group>";
+		};
+		ACEF45E529EC7256006FDB8F /* kidsGamesAndLearningAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACEF45E629EC7256006FDB8F /* kidsGamesAndLearningAppTests.swift */,
+			);
+			path = kidsGamesAndLearningAppTests;
+			sourceTree = "<group>";
+		};
+		ACEF45EF29EC7256006FDB8F /* kidsGamesAndLearningAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACEF45F029EC7256006FDB8F /* kidsGamesAndLearningAppUITests.swift */,
+				ACEF45F229EC7256006FDB8F /* kidsGamesAndLearningAppUITestsLaunchTests.swift */,
+			);
+			path = kidsGamesAndLearningAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACEF45CB29EC7255006FDB8F /* kidsGamesAndLearningApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACEF45F629EC7256006FDB8F /* Build configuration list for PBXNativeTarget "kidsGamesAndLearningApp" */;
+			buildPhases = (
+				ACEF45C829EC7255006FDB8F /* Sources */,
+				ACEF45C929EC7255006FDB8F /* Frameworks */,
+				ACEF45CA29EC7255006FDB8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kidsGamesAndLearningApp;
+			productName = kidsGamesAndLearningApp;
+			productReference = ACEF45CC29EC7255006FDB8F /* kidsGamesAndLearningApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACEF45E129EC7256006FDB8F /* kidsGamesAndLearningAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACEF45F929EC7256006FDB8F /* Build configuration list for PBXNativeTarget "kidsGamesAndLearningAppTests" */;
+			buildPhases = (
+				ACEF45DE29EC7256006FDB8F /* Sources */,
+				ACEF45DF29EC7256006FDB8F /* Frameworks */,
+				ACEF45E029EC7256006FDB8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACEF45E429EC7256006FDB8F /* PBXTargetDependency */,
+			);
+			name = kidsGamesAndLearningAppTests;
+			productName = kidsGamesAndLearningAppTests;
+			productReference = ACEF45E229EC7256006FDB8F /* kidsGamesAndLearningAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACEF45EB29EC7256006FDB8F /* kidsGamesAndLearningAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACEF45FC29EC7256006FDB8F /* Build configuration list for PBXNativeTarget "kidsGamesAndLearningAppUITests" */;
+			buildPhases = (
+				ACEF45E829EC7256006FDB8F /* Sources */,
+				ACEF45E929EC7256006FDB8F /* Frameworks */,
+				ACEF45EA29EC7256006FDB8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACEF45EE29EC7256006FDB8F /* PBXTargetDependency */,
+			);
+			name = kidsGamesAndLearningAppUITests;
+			productName = kidsGamesAndLearningAppUITests;
+			productReference = ACEF45EC29EC7256006FDB8F /* kidsGamesAndLearningAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACEF45C429EC7255006FDB8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					ACEF45CB29EC7255006FDB8F = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					ACEF45E129EC7256006FDB8F = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = ACEF45CB29EC7255006FDB8F;
+					};
+					ACEF45EB29EC7256006FDB8F = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = ACEF45CB29EC7255006FDB8F;
+					};
+				};
+			};
+			buildConfigurationList = ACEF45C729EC7255006FDB8F /* Build configuration list for PBXProject "kidsGamesAndLearningApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACEF45C329EC7255006FDB8F;
+			productRefGroup = ACEF45CD29EC7255006FDB8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACEF45CB29EC7255006FDB8F /* kidsGamesAndLearningApp */,
+				ACEF45E129EC7256006FDB8F /* kidsGamesAndLearningAppTests */,
+				ACEF45EB29EC7256006FDB8F /* kidsGamesAndLearningAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACEF45CA29EC7255006FDB8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACEF45DC29EC7256006FDB8F /* LaunchScreen.storyboard in Resources */,
+				ACEF45D929EC7256006FDB8F /* Assets.xcassets in Resources */,
+				ACEF45D729EC7255006FDB8F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACEF45E029EC7256006FDB8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACEF45EA29EC7256006FDB8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACEF45C829EC7255006FDB8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACEF45D429EC7255006FDB8F /* ViewController.swift in Sources */,
+				ACEF45D029EC7255006FDB8F /* AppDelegate.swift in Sources */,
+				ACEF45D229EC7255006FDB8F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACEF45DE29EC7256006FDB8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACEF45E729EC7256006FDB8F /* kidsGamesAndLearningAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACEF45E829EC7256006FDB8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACEF45F129EC7256006FDB8F /* kidsGamesAndLearningAppUITests.swift in Sources */,
+				ACEF45F329EC7256006FDB8F /* kidsGamesAndLearningAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACEF45E429EC7256006FDB8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACEF45CB29EC7255006FDB8F /* kidsGamesAndLearningApp */;
+			targetProxy = ACEF45E329EC7256006FDB8F /* PBXContainerItemProxy */;
+		};
+		ACEF45EE29EC7256006FDB8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACEF45CB29EC7255006FDB8F /* kidsGamesAndLearningApp */;
+			targetProxy = ACEF45ED29EC7256006FDB8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACEF45D529EC7255006FDB8F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACEF45D629EC7255006FDB8F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACEF45DA29EC7256006FDB8F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACEF45DB29EC7256006FDB8F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACEF45F429EC7256006FDB8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACEF45F529EC7256006FDB8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACEF45F729EC7256006FDB8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = kidsGamesAndLearningApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.kidsGamesAndLearningApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACEF45F829EC7256006FDB8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = kidsGamesAndLearningApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.kidsGamesAndLearningApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ACEF45FA29EC7256006FDB8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.kidsGamesAndLearningAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kidsGamesAndLearningApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/kidsGamesAndLearningApp";
+			};
+			name = Debug;
+		};
+		ACEF45FB29EC7256006FDB8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.kidsGamesAndLearningAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kidsGamesAndLearningApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/kidsGamesAndLearningApp";
+			};
+			name = Release;
+		};
+		ACEF45FD29EC7256006FDB8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.kidsGamesAndLearningAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kidsGamesAndLearningApp;
+			};
+			name = Debug;
+		};
+		ACEF45FE29EC7256006FDB8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.kidsGamesAndLearningAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kidsGamesAndLearningApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACEF45C729EC7255006FDB8F /* Build configuration list for PBXProject "kidsGamesAndLearningApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACEF45F429EC7256006FDB8F /* Debug */,
+				ACEF45F529EC7256006FDB8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACEF45F629EC7256006FDB8F /* Build configuration list for PBXNativeTarget "kidsGamesAndLearningApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACEF45F729EC7256006FDB8F /* Debug */,
+				ACEF45F829EC7256006FDB8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACEF45F929EC7256006FDB8F /* Build configuration list for PBXNativeTarget "kidsGamesAndLearningAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACEF45FA29EC7256006FDB8F /* Debug */,
+				ACEF45FB29EC7256006FDB8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACEF45FC29EC7256006FDB8F /* Build configuration list for PBXNativeTarget "kidsGamesAndLearningAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACEF45FD29EC7256006FDB8F /* Debug */,
+				ACEF45FE29EC7256006FDB8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACEF45C429EC7255006FDB8F /* Project object */;
+}
