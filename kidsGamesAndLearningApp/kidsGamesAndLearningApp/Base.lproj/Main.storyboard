@@ -26,6 +26,15 @@
                                     <segue destination="x8d-sS-LYj" kind="show" identifier="matchSegue" id="Bfo-fu-Kkg"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qyr-Wp-atB">
+                                <rect key="frame" x="154" y="699" width="85" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Science"/>
+                                <connections>
+                                    <segue destination="QW5-nq-eFo" kind="show" id="gUt-1U-pGf"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -184,16 +193,17 @@
             </objects>
             <point key="canvasLocation" x="2440" y="4"/>
         </scene>
-        <!--View Controller-->
+        <!--Science View Controller-->
         <scene sceneID="YMF-tk-WiL">
             <objects>
-                <viewController id="QW5-nq-eFo" sceneMemberID="viewController">
+                <viewController id="QW5-nq-eFo" customClass="ScienceViewController" customModule="kidsGamesAndLearningApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9Wh-xm-iV9">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="t74-pe-YS6"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="yyJ-7J-N1P"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QJI-V7-4Nb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
