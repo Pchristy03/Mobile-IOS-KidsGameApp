@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< Updated upstream
 		3F381F6729EEEB5900386617 /* ScienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F381F6629EEEB5900386617 /* ScienceViewController.swift */; };
+=======
+		3FB87C0E29EEEC5E004C50F5 /* MathViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB87C0D29EEEC5E004C50F5 /* MathViewController.swift */; };
+>>>>>>> Stashed changes
 		ACEF45D029EC7255006FDB8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEF45CF29EC7255006FDB8F /* AppDelegate.swift */; };
 		ACEF45D229EC7255006FDB8F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEF45D129EC7255006FDB8F /* SceneDelegate.swift */; };
 		ACEF45D429EC7255006FDB8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEF45D329EC7255006FDB8F /* ViewController.swift */; };
@@ -38,7 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+<<<<<<< Updated upstream
 		3F381F6629EEEB5900386617 /* ScienceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScienceViewController.swift; sourceTree = "<group>"; };
+=======
+		3FB87C0D29EEEC5E004C50F5 /* MathViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathViewController.swift; sourceTree = "<group>"; };
+>>>>>>> Stashed changes
 		ACEF45CC29EC7255006FDB8F /* kidsGamesAndLearningApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kidsGamesAndLearningApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACEF45CF29EC7255006FDB8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACEF45D129EC7255006FDB8F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,7 +119,11 @@
 				ACEF45DA29EC7256006FDB8F /* LaunchScreen.storyboard */,
 				ACEF45DD29EC7256006FDB8F /* Info.plist */,
 				ACF69A6929EE36680070FA7C /* MatchingViewController.swift */,
+<<<<<<< Updated upstream
 				3F381F6629EEEB5900386617 /* ScienceViewController.swift */,
+=======
+				3FB87C0D29EEEC5E004C50F5 /* MathViewController.swift */,
+>>>>>>> Stashed changes
 			);
 			path = kidsGamesAndLearningApp;
 			sourceTree = "<group>";
@@ -265,7 +277,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACEF45D429EC7255006FDB8F /* ViewController.swift in Sources */,
+<<<<<<< Updated upstream
 				3F381F6729EEEB5900386617 /* ScienceViewController.swift in Sources */,
+=======
+				3FB87C0E29EEEC5E004C50F5 /* MathViewController.swift in Sources */,
+>>>>>>> Stashed changes
 				ACF69A6A29EE36680070FA7C /* MatchingViewController.swift in Sources */,
 				ACEF45D029EC7255006FDB8F /* AppDelegate.swift in Sources */,
 				ACEF45D229EC7255006FDB8F /* SceneDelegate.swift in Sources */,
