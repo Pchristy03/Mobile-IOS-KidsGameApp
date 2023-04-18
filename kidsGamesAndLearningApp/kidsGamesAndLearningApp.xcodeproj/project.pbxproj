@@ -16,6 +16,7 @@
 		ACEF45E729EC7256006FDB8F /* kidsGamesAndLearningAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEF45E629EC7256006FDB8F /* kidsGamesAndLearningAppTests.swift */; };
 		ACEF45F129EC7256006FDB8F /* kidsGamesAndLearningAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEF45F029EC7256006FDB8F /* kidsGamesAndLearningAppUITests.swift */; };
 		ACEF45F329EC7256006FDB8F /* kidsGamesAndLearningAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEF45F229EC7256006FDB8F /* kidsGamesAndLearningAppUITestsLaunchTests.swift */; };
+		ACF69A6A29EE36680070FA7C /* MatchingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF69A6929EE36680070FA7C /* MatchingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		ACEF45EC29EC7256006FDB8F /* kidsGamesAndLearningAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kidsGamesAndLearningAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACEF45F029EC7256006FDB8F /* kidsGamesAndLearningAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kidsGamesAndLearningAppUITests.swift; sourceTree = "<group>"; };
 		ACEF45F229EC7256006FDB8F /* kidsGamesAndLearningAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kidsGamesAndLearningAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ACF69A6929EE36680070FA7C /* MatchingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				ACEF45D829EC7256006FDB8F /* Assets.xcassets */,
 				ACEF45DA29EC7256006FDB8F /* LaunchScreen.storyboard */,
 				ACEF45DD29EC7256006FDB8F /* Info.plist */,
+				ACF69A6929EE36680070FA7C /* MatchingViewController.swift */,
 			);
 			path = kidsGamesAndLearningApp;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACEF45D429EC7255006FDB8F /* ViewController.swift in Sources */,
+				ACF69A6A29EE36680070FA7C /* MatchingViewController.swift in Sources */,
 				ACEF45D029EC7255006FDB8F /* AppDelegate.swift in Sources */,
 				ACEF45D229EC7255006FDB8F /* SceneDelegate.swift in Sources */,
 			);
