@@ -35,6 +35,15 @@
                                     <segue destination="QW5-nq-eFo" kind="show" id="gUt-1U-pGf"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RQ5-jA-SV0">
+                                <rect key="frame" x="140" y="542" width="114" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Crossword?"/>
+                                <connections>
+                                    <segue destination="gE8-Hg-rot" kind="show" id="E1A-fu-uHj"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -173,6 +182,7 @@
                         <viewLayoutGuide key="safeArea" id="CYB-TV-Nv6"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="dvf-sQ-19E"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qt6-gE-8gQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
