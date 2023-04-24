@@ -26,6 +26,9 @@ class MatchingViewController: UIViewController {
     var images = [String]()
     var found = [Tile]()
     var foundID = [Int]()
+    var userName = ""
+    
+    @IBOutlet weak var winTextLabel: UILabel!
     
     var initialImage = "questionmark"
     
@@ -148,7 +151,9 @@ class MatchingViewController: UIViewController {
                     }
                     c = c + 1
                 }
-                print(foundID.count)
+                if(foundID.count == 16){
+                    winTextLabel.text = "Congratulations \(userName)! You've finished the memory matcher!"
+                }
             }
             taps = taps + 1
             if taps > 2 {
@@ -200,6 +205,8 @@ class MatchingViewController: UIViewController {
             t.addGestureRecognizer(gest[i])
             i = i + 1;
         }
+        
+        self.title = "Welcome \(userName)!"
         
     }
 

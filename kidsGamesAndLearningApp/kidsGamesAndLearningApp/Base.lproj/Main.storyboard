@@ -88,6 +88,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="nameFieldAction:" destination="BYZ-38-t0r" eventType="editingChanged" id="yj9-rz-Pch"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Whats your name? " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TR3-cD-jRr">
                                 <rect key="frame" x="46" y="175" width="160" height="34"/>
@@ -183,9 +186,16 @@
                                 <rect key="frame" x="291" y="448" width="81" height="85"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H6m-VD-H6t">
+                                <rect key="frame" x="53" y="599" width="286" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="uuE-4u-mlV"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="1" green="0.98405032214017396" blue="0.98309330177467158" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="ZFs-aU-hWv"/>
                     <connections>
@@ -205,11 +215,12 @@
                         <outlet property="tileThree" destination="VBe-9x-TRo" id="JZq-oq-lz6"/>
                         <outlet property="tileTwelve" destination="Mxm-p7-2zf" id="CCa-7P-oWs"/>
                         <outlet property="tileTwo" destination="qFT-Vs-7FJ" id="gAn-1r-ZCl"/>
+                        <outlet property="winTextLabel" destination="H6m-VD-H6t" id="tlP-aF-0mQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7lN-3q-zsn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1735" y="4"/>
+            <point key="canvasLocation" x="1733.5877862595419" y="3.5211267605633805"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="wCw-Sq-wjH">
