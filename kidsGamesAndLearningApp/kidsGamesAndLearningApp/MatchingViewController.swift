@@ -11,12 +11,10 @@ class Tile {
     
     var image = ""
     var id = 0
-    var selected = false
     
-    init(image: String, id: Int, selected: Bool) {
+    init(image: String, id: Int) {
         self.image = image
         self.id = id
-        self.selected = selected
     }
 }
 
@@ -31,37 +29,37 @@ class MatchingViewController: UIViewController {
     
     var initialImage = "questionmark"
     
-    let tileA = Tile(image: "cow", id: 8, selected: false)
+    let tileA = Tile(image: "cow", id: 8)
     
-    let tileB = Tile(image: "bird", id: 7, selected: false)
+    let tileB = Tile(image: "bird", id: 7)
     
-    let tileC = Tile(image: "cat", id: 6, selected: false)
+    let tileC = Tile(image: "cat", id: 6)
     
-    let tileD = Tile(image: "rabbit", id: 5, selected: false)
+    let tileD = Tile(image: "rabbit", id: 5)
     
-    let tileE = Tile(image: "dog", id: 4, selected: false)
+    let tileE = Tile(image: "dog", id: 4)
     
-    let tileF = Tile(image: "mouse", id: 3, selected: false)
+    let tileF = Tile(image: "mouse", id: 3)
     
-    let tileG = Tile(image: "horse", id: 2, selected: false)
+    let tileG = Tile(image: "horse", id: 2)
     
-    let tileH = Tile(image: "sheep", id: 1, selected: false)
+    let tileH = Tile(image: "sheep", id: 1)
     
-    let tileI = Tile(image: "cow", id: 9, selected: false)
+    let tileI = Tile(image: "cow", id: 9)
     
-    let tileJ = Tile(image: "bird", id: 10, selected: false)
+    let tileJ = Tile(image: "bird", id: 10)
     
-    let tileK = Tile(image: "cat", id: 11, selected: false)
+    let tileK = Tile(image: "cat", id: 11)
     
-    let tileL = Tile(image: "rabbit", id: 12, selected: false)
+    let tileL = Tile(image: "rabbit", id: 12)
     
-    let tileM = Tile(image: "dog", id: 13, selected: false)
+    let tileM = Tile(image: "dog", id: 13)
     
-    let tileN = Tile(image: "mouse", id: 14, selected: false)
+    let tileN = Tile(image: "mouse", id: 14)
     
-    let tileO = Tile(image: "horse", id: 15, selected: false)
+    let tileO = Tile(image: "horse", id: 15)
     
-    let tileP = Tile(image: "sheep", id: 16, selected: false)
+    let tileP = Tile(image: "sheep", id: 16)
     
     
     //Outlets for all the tiles on the board
@@ -100,7 +98,6 @@ class MatchingViewController: UIViewController {
         var index = 0
         for tile in tiles{
             if tile.id == Int(t.restorationIdentifier!) ?? 0{
-                tile.selected = true
                 tileLocations[index].image = UIImage(named: tile.image)
             }
             index = index + 1
@@ -111,31 +108,13 @@ class MatchingViewController: UIViewController {
         var i = 0
         if taps == 3 && total != 17 {
             for t in tiles {
-                if t.selected == true && !foundID.contains(t.id){
+                if !foundID.contains(t.id){
                     tileLocations[i].image = UIImage(named: initialImage)
                 }
                 i = i + 1
             }
         }
     }
-    
-//    func tileVsView(listV: [UIImageView], listT: [Tile]){
-//        var c = 0;
-//        for t in listT{
-//            if t.id == Int(listV[counter].restorationIdentifier!) ?? 0{
-//                found.append(t)
-//            }
-//        }
-//        for i in found {
-//            foundID.append(i.id)
-//            if(i.id + c == 17){
-//                foundID.append(c)
-//                print("selected: \(i.id)")
-//                print("created: \(c)")
-//            }
-//            c = c + 1
-//        }
-//    }
     
     var selectedList = [UIImageView]()
     var total = 0
@@ -155,39 +134,28 @@ class MatchingViewController: UIViewController {
         }
         
         if let tileView = gesture.view as? UIImageView {
-            //print(tileView.restorationIdentifier!)
+            print("first: " + tileView.restorationIdentifier!)
             selectedList.append(tileView)
             total = total + Int(tileView.restorationIdentifier!)!
             exposeIfTapped(t: tileView)
             if total == 17 {
                 print("match")
                 total = 0
+                for i in selectedList {
+                    foundID.append(Int(i.restorationIdentifier!) ?? 0)
+                    if(Int(i.restorationIdentifier!) ?? 0 + c == 17){
+                        foundID.append(c)
+                    }
+                    c = c + 1
+                }
+                print(foundID.count)
             }
-            //print(taps)
-            //print(total)
             taps = taps + 1
             if taps > 2 {
                 resetImages(taps: taps, to: total)
+                selectedList.removeAll()
                 taps = 0
                 total = 0
-                selectedList.removeAll()
-            }
-            var c2 = 0
-            for t in tiles{
-                if(c2 < selectedList.count){
-                    if t.id == Int(selectedList[c2].restorationIdentifier!) ?? 0{
-                        found.append(t)
-                        print(found.count)
-                    }
-                    c2 = c2 + 1
-                }
-            }
-            for i in found {
-                foundID.append(i.id)
-                if(i.id + c == 17){
-                    foundID.append(c)
-                }
-                c = c + 1
             }
         }
     }
@@ -234,18 +202,5 @@ class MatchingViewController: UIViewController {
         }
         
     }
-    
-    
-    
-    
-    /*
-     // MARK: - Navigation
-     
-     // In a storyboard-based application, you will often want to do a little preparation before navigation
-     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-     // Get the new view controller using segue.destination.
-     // Pass the selected object to the new view controller.
-     }
-     */
-    
+
 }
