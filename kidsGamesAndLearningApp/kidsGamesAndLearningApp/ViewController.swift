@@ -10,16 +10,35 @@ import UIKit
 class ViewController: UIViewController {
     var name = ""
 
+    @IBOutlet weak var artButtonOutlet: UIButton!
+    @IBOutlet weak var historyButtonOutlet: UIButton!
+    @IBOutlet weak var mathButtonOutlet: UIButton!
+    @IBOutlet weak var scienceButtonOutlet: UIButton!
     @IBOutlet weak var crosswordOutlet: UIButton!
     @IBOutlet weak var memoryMatcherOutlet: UIButton!
     @IBOutlet weak var nameTextField: UITextField!
     
     @IBAction func nameFieldAction(_ sender: Any) {
         name = nameTextField.text!
+        if(nameTextField.hasText){
+            scienceButtonOutlet.isEnabled = true
+            mathButtonOutlet.isEnabled = true
+            historyButtonOutlet.isEnabled = true
+            artButtonOutlet.isEnabled = true
+        }
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        scienceButtonOutlet.isEnabled = false
+        mathButtonOutlet.isEnabled = false
+        historyButtonOutlet.isEnabled = false
+        artButtonOutlet.isEnabled = false
+        
+        //uncomment once we have logic implemented
+        //memoryMatcherOutlet.isEnabled = false
+        //crosswordOutlet.isEnabled = false
         
     }
     

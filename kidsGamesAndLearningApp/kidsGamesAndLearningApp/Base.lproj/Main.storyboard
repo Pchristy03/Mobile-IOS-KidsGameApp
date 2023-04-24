@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="7Ek-E4-PXF">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="7Ek-E4-PXF">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -108,9 +108,13 @@
                     </view>
                     <navigationItem key="navigationItem" id="WnW-YW-Mz1"/>
                     <connections>
+                        <outlet property="artButtonOutlet" destination="XjB-V0-48b" id="CRE-k6-Sgv"/>
                         <outlet property="crosswordOutlet" destination="RQ5-jA-SV0" id="YTv-h5-aM9"/>
+                        <outlet property="historyButtonOutlet" destination="fmX-Y9-Fk8" id="A46-5V-qcR"/>
+                        <outlet property="mathButtonOutlet" destination="ElN-Jx-1uK" id="MbY-ip-TeU"/>
                         <outlet property="memoryMatcherOutlet" destination="M00-wk-HxH" id="iFc-vq-CFo"/>
                         <outlet property="nameTextField" destination="bho-a1-IZ3" id="53C-jR-wVd"/>
+                        <outlet property="scienceButtonOutlet" destination="Qyr-Wp-atB" id="BcR-GP-fzI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
