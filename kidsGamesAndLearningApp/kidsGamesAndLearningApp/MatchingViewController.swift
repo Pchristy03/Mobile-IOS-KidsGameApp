@@ -27,6 +27,7 @@ class MatchingViewController: UIViewController {
     var gest = [UITapGestureRecognizer]()
     var images = [String]()
     var found = [Tile]()
+    var foundID = [Int]()
     
     var initialImage = "questionmark"
     
@@ -110,7 +111,7 @@ class MatchingViewController: UIViewController {
         var i = 0
         if taps == 3 && total != 17 {
             for t in tiles {
-                if t.selected {
+                if t.selected == true && !foundID.contains(t.id){
                     tileLocations[i].image = UIImage(named: initialImage)
                 }
                 i = i + 1
@@ -118,10 +119,29 @@ class MatchingViewController: UIViewController {
         }
     }
     
+//    func tileVsView(listV: [UIImageView], listT: [Tile]){
+//        var c = 0;
+//        for t in listT{
+//            if t.id == Int(listV[counter].restorationIdentifier!) ?? 0{
+//                found.append(t)
+//            }
+//        }
+//        for i in found {
+//            foundID.append(i.id)
+//            if(i.id + c == 17){
+//                foundID.append(c)
+//                print("selected: \(i.id)")
+//                print("created: \(c)")
+//            }
+//            c = c + 1
+//        }
+//    }
+    
     var selectedList = [UIImageView]()
     var total = 0
     var taps = 0
     var counter = 0
+    var c = 0;
     
     @objc func imageTapped(gesture: UIGestureRecognizer) {
         // if the tapped view is a UIImageView then set it to imageview
@@ -137,8 +157,6 @@ class MatchingViewController: UIViewController {
         if let tileView = gesture.view as? UIImageView {
             //print(tileView.restorationIdentifier!)
             selectedList.append(tileView)
-            print(tileView.restorationIdentifier)
-            print(selectedList.count)
             total = total + Int(tileView.restorationIdentifier!)!
             exposeIfTapped(t: tileView)
             if total == 17 {
@@ -153,6 +171,23 @@ class MatchingViewController: UIViewController {
                 taps = 0
                 total = 0
                 selectedList.removeAll()
+            }
+            var c2 = 0
+            for t in tiles{
+                if(c2 < selectedList.count){
+                    if t.id == Int(selectedList[c2].restorationIdentifier!) ?? 0{
+                        found.append(t)
+                        print(found.count)
+                    }
+                    c2 = c2 + 1
+                }
+            }
+            for i in found {
+                foundID.append(i.id)
+                if(i.id + c == 17){
+                    foundID.append(c)
+                }
+                c = c + 1
             }
         }
     }
