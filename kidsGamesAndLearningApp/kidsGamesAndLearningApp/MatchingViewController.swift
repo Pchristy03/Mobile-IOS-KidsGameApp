@@ -137,12 +137,10 @@ class MatchingViewController: UIViewController {
         }
         
         if let tileView = gesture.view as? UIImageView {
-            print("first: " + tileView.restorationIdentifier!)
             selectedList.append(tileView)
             total = total + Int(tileView.restorationIdentifier!)!
             exposeIfTapped(t: tileView)
             if total == 17 {
-                print("match")
                 total = 0
                 for i in selectedList {
                     foundID.append(Int(i.restorationIdentifier!) ?? 0)

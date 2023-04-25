@@ -9,6 +9,8 @@ import UIKit
 import WebKit
 
 class MathViewController: UIViewController {
+    
+    var userName = ""
 
     @IBOutlet weak var videoOL: WKWebView!
     
@@ -57,6 +59,8 @@ class MathViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.title = "Welcome \(userName)!"
 
         // Do any additional setup after loading the view.
         checkBtnOL.isEnabled = false

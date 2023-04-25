@@ -11,9 +11,12 @@ import UIKit
 import WebKit
 
 class ScienceViewController: UIViewController {
+    
+    var userName = ""
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "Welcome \(userName)!"
 
         // Do any additional setup after loading the view.
     }

@@ -50,6 +50,31 @@ class ViewController: UIViewController {
             
             destination.userName = name;
         }
+        if transition == "MathSegue" {
+            var destination = segue.destination as! MathViewController
+            
+            destination.userName = name;
+        }
+        if transition == "scienceSegue" {
+            var destination = segue.destination as! ScienceViewController
+            
+            destination.userName = name;
+        }
+//        if transition == "artSegue" {
+//            var destination = segue.destination as! ArtViewController
+//
+//            destination.userName = name;
+//        }
+//        if transition == "EnglishSegue" {
+//            var destination = segue.destination as! EnglishViewController
+//
+//            destination.userName = name;
+//        }
+//        if transition == "crosswordSegue" {
+//            var destination = segue.destination as! CrosswordViewController
+//
+//            destination.userName = name;
+//        }
     }
 
 
