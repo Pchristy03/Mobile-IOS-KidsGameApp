@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3F2F228429F6FB820018B152 /* MathViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2F228329F6FB820018B152 /* MathViewController.swift */; };
 		3F381F6729EEEB5900386617 /* ScienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F381F6629EEEB5900386617 /* ScienceViewController.swift */; };
+		4913F68129F81FF700612877 /* EnglishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4913F68029F81FF700612877 /* EnglishViewController.swift */; };
 		ACEF45D029EC7255006FDB8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEF45CF29EC7255006FDB8F /* AppDelegate.swift */; };
 		ACEF45D229EC7255006FDB8F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEF45D129EC7255006FDB8F /* SceneDelegate.swift */; };
 		ACEF45D429EC7255006FDB8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEF45D329EC7255006FDB8F /* ViewController.swift */; };
@@ -41,6 +42,7 @@
 /* Begin PBXFileReference section */
 		3F2F228329F6FB820018B152 /* MathViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathViewController.swift; sourceTree = "<group>"; };
 		3F381F6629EEEB5900386617 /* ScienceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScienceViewController.swift; sourceTree = "<group>"; };
+		4913F68029F81FF700612877 /* EnglishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnglishViewController.swift; sourceTree = "<group>"; };
 		ACEF45CC29EC7255006FDB8F /* kidsGamesAndLearningApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kidsGamesAndLearningApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACEF45CF29EC7255006FDB8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACEF45D129EC7255006FDB8F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				ACEF45D129EC7255006FDB8F /* SceneDelegate.swift */,
 				ACEF45D329EC7255006FDB8F /* ViewController.swift */,
 				ACEF45D529EC7255006FDB8F /* Main.storyboard */,
+				4913F68029F81FF700612877 /* EnglishViewController.swift */,
 				ACEF45D829EC7256006FDB8F /* Assets.xcassets */,
 				ACEF45DA29EC7256006FDB8F /* LaunchScreen.storyboard */,
 				ACEF45DD29EC7256006FDB8F /* Info.plist */,
@@ -269,6 +272,7 @@
 			files = (
 				ACEF45D429EC7255006FDB8F /* ViewController.swift in Sources */,
 				3F381F6729EEEB5900386617 /* ScienceViewController.swift in Sources */,
+				4913F68129F81FF700612877 /* EnglishViewController.swift in Sources */,
 				ACF69A6A29EE36680070FA7C /* MatchingViewController.swift in Sources */,
 				ACEF45D029EC7255006FDB8F /* AppDelegate.swift in Sources */,
 				3F2F228429F6FB820018B152 /* MathViewController.swift in Sources */,
