@@ -60,11 +60,11 @@ class ViewController: UIViewController {
             
             destination.userName = name;
         }
-//        if transition == "artSegue" {
-//            var destination = segue.destination as! ArtViewController
-//
-//            destination.userName = name;
-//        }
+        if transition == "artSegue" {
+            var destination = segue.destination as! ArtViewController
+
+            destination.userName = name;
+        }
 //        if transition == "EnglishSegue" {
 //            var destination = segue.destination as! EnglishViewController
 //

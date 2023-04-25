@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="7Ek-E4-PXF">
-    <device id="retina6_12" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="7Ek-E4-PXF">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -14,7 +13,7 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="kidsGamesAndLearningApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qyr-Wp-atB">
@@ -88,6 +87,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Art"/>
+                                <connections>
+                                    <segue destination="sgr-R8-SJ0" kind="show" identifier="artSegue" id="6Ce-wb-YkL"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bho-a1-IZ3">
                                 <rect key="frame" x="214" y="175" width="122" height="34"/>
@@ -129,7 +131,7 @@
             <objects>
                 <viewController id="x8d-sS-LYj" customClass="MatchingViewController" customModule="kidsGamesAndLearningApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gIu-rQ-hyd">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" restorationIdentifier="1" translatesAutoresizingMaskIntoConstraints="NO" id="iH8-PW-SKv">
@@ -238,7 +240,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="7Ek-E4-PXF" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="NYp-gf-nF6">
-                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -255,7 +257,7 @@
             <objects>
                 <viewController title="Crossword/Drawing View Controller" id="gE8-Hg-rot" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aDW-Dp-UCQ">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="CYB-TV-Nv6"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -271,7 +273,7 @@
             <objects>
                 <viewController id="Ob4-7U-Ej5" customClass="EnglishViewController" customModule="kidsGamesAndLearningApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="f0V-UK-Xb0">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="H05-Yq-T5D">
@@ -374,7 +376,7 @@
             <objects>
                 <viewController id="6Ao-Jc-3m9" customClass="MathViewController" customModule="kidsGamesAndLearningApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wnt-8m-pEA">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uk2-1n-xqd">
@@ -471,7 +473,7 @@
             <objects>
                 <viewController id="QW5-nq-eFo" customClass="ScienceViewController" customModule="kidsGamesAndLearningApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9Wh-xm-iV9">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JqP-dm-CIp">
@@ -566,20 +568,114 @@
             </objects>
             <point key="canvasLocation" x="1752" y="756"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="Kpv-Zd-x3Y">
+        <!--Art View Controller-->
+        <scene sceneID="viQ-LM-ULa">
             <objects>
-                <viewController id="r9w-aq-5Xs" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="WiL-vd-ruj">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                <viewController id="sgr-R8-SJ0" customClass="ArtViewController" customModule="kidsGamesAndLearningApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qwu-M7-YNi">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="Kro-A3-j0T"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Art" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5lF-jw-raG">
+                                <rect key="frame" x="177" y="103" width="60" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="0bk-aY-kBL"/>
+                                    <constraint firstAttribute="height" constant="50" id="aSJ-15-PwK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BPM-zW-aoA">
+                                <rect key="frame" x="57" y="183" width="300" height="200"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="WKN-ec-9b9"/>
+                                    <constraint firstAttribute="width" constant="300" id="tEY-EZ-iHj"/>
+                                </constraints>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What is Hue?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uuO-Mh-uzQ">
+                                <rect key="frame" x="75" y="433" width="88.5" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="YYD-aB-5bs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Answer Here" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ql2-bm-8CT">
+                                <rect key="frame" x="75" y="513" width="170" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="170" id="aiq-Us-fpf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What is Value?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8zd-lc-B8C">
+                                <rect key="frame" x="75" y="597" width="270" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="270" id="Grd-pj-kyO"/>
+                                    <constraint firstAttribute="height" constant="30" id="vi3-Rh-pf4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Answer Here" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jUL-3d-JW4">
+                                <rect key="frame" x="75" y="677" width="170" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="170" id="ehz-Uu-U4C"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BIF-FL-46K">
+                                <rect key="frame" x="132" y="736" width="150" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="7bk-y9-M5q"/>
+                                    <constraint firstAttribute="height" constant="35" id="PE9-Ec-CDW"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Check Answers"/>
+                                <connections>
+                                    <action selector="caBtnPressed:" destination="sgr-R8-SJ0" eventType="touchUpInside" id="e3P-o7-sIJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="8LP-qU-LBA"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Ql2-bm-8CT" firstAttribute="leading" secondItem="8LP-qU-LBA" secondAttribute="leading" constant="75" id="2tP-uM-RET"/>
+                            <constraint firstItem="jUL-3d-JW4" firstAttribute="top" secondItem="8zd-lc-B8C" secondAttribute="bottom" constant="50" id="6Of-hM-XoQ"/>
+                            <constraint firstItem="BIF-FL-46K" firstAttribute="centerX" secondItem="qwu-M7-YNi" secondAttribute="centerX" id="77M-zk-3ra"/>
+                            <constraint firstItem="5lF-jw-raG" firstAttribute="top" secondItem="8LP-qU-LBA" secondAttribute="top" constant="15" id="LYB-Cw-qsw"/>
+                            <constraint firstItem="8zd-lc-B8C" firstAttribute="top" secondItem="Ql2-bm-8CT" secondAttribute="bottom" constant="50" id="Xpj-HA-Eqp"/>
+                            <constraint firstItem="BIF-FL-46K" firstAttribute="top" secondItem="jUL-3d-JW4" secondAttribute="bottom" constant="25" id="Z6v-11-KAu"/>
+                            <constraint firstItem="BPM-zW-aoA" firstAttribute="top" secondItem="5lF-jw-raG" secondAttribute="bottom" constant="30" id="cS6-cG-BS2"/>
+                            <constraint firstItem="Ql2-bm-8CT" firstAttribute="top" secondItem="uuO-Mh-uzQ" secondAttribute="bottom" constant="50" id="g6W-BL-WnG"/>
+                            <constraint firstItem="uuO-Mh-uzQ" firstAttribute="leading" secondItem="8LP-qU-LBA" secondAttribute="leading" constant="75" id="k44-bi-GfQ"/>
+                            <constraint firstItem="BPM-zW-aoA" firstAttribute="centerX" secondItem="qwu-M7-YNi" secondAttribute="centerX" id="sEl-BO-nK5"/>
+                            <constraint firstItem="uuO-Mh-uzQ" firstAttribute="top" secondItem="BPM-zW-aoA" secondAttribute="bottom" constant="50" id="sRQ-MN-x7U"/>
+                            <constraint firstItem="5lF-jw-raG" firstAttribute="centerX" secondItem="qwu-M7-YNi" secondAttribute="centerX" id="tzK-gz-vWE"/>
+                            <constraint firstItem="jUL-3d-JW4" firstAttribute="leading" secondItem="8LP-qU-LBA" secondAttribute="leading" constant="75" id="xW8-RR-v9v"/>
+                            <constraint firstItem="8zd-lc-B8C" firstAttribute="leading" secondItem="8LP-qU-LBA" secondAttribute="leading" constant="75" id="zr7-kZ-mO7"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="gtm-he-naT"/>
+                    <connections>
+                        <outlet property="a1Outlet" destination="Ql2-bm-8CT" id="WNb-sN-4JS"/>
+                        <outlet property="a2Outlet" destination="jUL-3d-JW4" id="D7z-3j-XZu"/>
+                        <outlet property="caBtn" destination="BIF-FL-46K" id="QkS-1W-xvD"/>
+                        <outlet property="vidOutlet" destination="BPM-zW-aoA" id="jCp-Mu-mex"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="oqm-On-Hja" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wwq-rU-qBY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2439" y="756"/>
+            <point key="canvasLocation" x="2518.840579710145" y="754.6875"/>
         </scene>
     </scenes>
     <resources>
