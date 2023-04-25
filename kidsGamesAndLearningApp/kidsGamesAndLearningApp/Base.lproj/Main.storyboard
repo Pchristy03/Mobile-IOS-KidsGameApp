@@ -256,7 +256,7 @@
         <!--Crossword/Drawing View Controller-->
         <scene sceneID="0hW-AF-E4b">
             <objects>
-                <viewController title="Crossword/Drawing View Controller" id="gE8-Hg-rot" sceneMemberID="viewController">
+                <viewController title="Crossword/Drawing View Controller" id="gE8-Hg-rot" customClass="CrosswordViewController" customModule="kidsGamesAndLearningApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aDW-Dp-UCQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1347,6 +1347,25 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="dvf-sQ-19E"/>
+                    <connections>
+                        <outlet property="math1OL" destination="7Pr-id-Sqw" id="s1F-mR-hmF"/>
+                        <outlet property="math3OL" destination="AgV-HK-jwo" id="u3p-5E-kca"/>
+                        <outlet property="math4OL" destination="7aN-Jh-0jI" id="fWv-hG-Ogb"/>
+                        <outlet property="matt1OL" destination="IVL-Fc-wxw" id="QW0-ry-yrx"/>
+                        <outlet property="matt2OL" destination="IVL-Fc-wxw" id="EQo-IV-1wf"/>
+                        <outlet property="matt3OL" destination="zGH-5w-sq4" id="y1D-Dw-7ec"/>
+                        <outlet property="matt4OL" destination="aGJ-Hn-b5J" id="4jF-Ds-8r3"/>
+                        <outlet property="matt5OL" destination="tgo-Af-rM8" id="V9A-7T-RXd"/>
+                        <outlet property="matt6OL" destination="mTm-Cz-069" id="KUh-Z6-oIh"/>
+                        <outlet property="moon1OL" destination="Q0x-Zl-zyI" id="cVV-ze-iPW"/>
+                        <outlet property="moon2OL" destination="wwc-LP-esK" id="ArE-tQ-Cfa"/>
+                        <outlet property="moon4OL" destination="41e-K1-IyL" id="EhL-Bk-epL"/>
+                        <outlet property="vol1OL" destination="1db-1v-ahr" id="YeC-Ji-XVe"/>
+                        <outlet property="vol2OL" destination="9vk-xr-Ddt" id="gmb-FC-1AB"/>
+                        <outlet property="vol3OL" destination="Vm7-1T-ti2" id="7aG-0h-E8Y"/>
+                        <outlet property="vol4OL" destination="hTj-Al-wJg" id="B8R-iG-XtP"/>
+                        <outlet property="vol5OL" destination="LrB-9G-1dk" id="SoO-vi-gwg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qt6-gE-8gQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
