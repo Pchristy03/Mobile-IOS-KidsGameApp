@@ -63,7 +63,7 @@ class ViewController: UIViewController {
         if transition == "artSegue" {
             var destination = segue.destination as! ArtViewController
 
-            destination.userName = name;
+            //destination.userName = name;
         }
 //        if transition == "EnglishSegue" {
 //            var destination = segue.destination as! EnglishViewController
