@@ -8,6 +8,9 @@
 import UIKit
 
 class CrosswordViewController: UIViewController {
+    
+    var userName = ""
+    
     @IBOutlet weak var matt1OL: UITextField!
     @IBOutlet weak var matt2OL: UITextField!
     @IBOutlet weak var matt3OL: UITextField!
@@ -31,6 +34,7 @@ class CrosswordViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        self.title = "Welcome \(userName)!"
         // Do any additional setup after loading the view.
     }
     

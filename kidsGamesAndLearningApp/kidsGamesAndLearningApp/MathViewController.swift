@@ -53,6 +53,9 @@ class MathViewController: UIViewController {
         else {
             checkAnswer2OL.text = "❌"
         }
+        if answer1OL.text == "8" && answer2OL.text == "14" {
+            completeSections = completeSections + 1
+        }
     }
     
     @IBOutlet weak var checkBtnOL: UIButton!

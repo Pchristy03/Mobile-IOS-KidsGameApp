@@ -11,6 +11,8 @@ import WebKit
 
 class EnglishViewController: UIViewController {
     
+    var userName = ""
+    
     @IBOutlet weak var q1OL: UITextField!
     
     @IBOutlet weak var q2OL: UITextField!
@@ -21,6 +23,8 @@ class EnglishViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.title = "Welcome \(userName)!"
 
         // Do any additional setup after loading the view.
     }

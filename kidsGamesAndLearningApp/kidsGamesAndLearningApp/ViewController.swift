@@ -7,6 +7,8 @@
 
 import UIKit
 
+var completeSections = 0
+
 class ViewController: UIViewController {
     var name = ""
 
@@ -42,39 +44,46 @@ class ViewController: UIViewController {
         
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        if completeSections == 4 {
+            memoryMatcherOutlet.isEnabled = true
+            crosswordOutlet.isEnabled = true
+        }
+    }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        var transition = segue.identifier
+        let transition = segue.identifier
         
         if transition == "matchSegue" {
-            var destination = segue.destination as! MatchingViewController
+            let destination = segue.destination as! MatchingViewController
             
             destination.userName = name;
         }
         if transition == "MathSegue" {
-            var destination = segue.destination as! MathViewController
+            let destination = segue.destination as! MathViewController
             
             destination.userName = name;
         }
         if transition == "scienceSegue" {
-            var destination = segue.destination as! ScienceViewController
+            let destination = segue.destination as! ScienceViewController
             
             destination.userName = name;
         }
         if transition == "artSegue" {
-            var destination = segue.destination as! ArtViewController
+            let destination = segue.destination as! ArtViewController
 
-            //destination.userName = name;
+            destination.userName = name;
         }
-//        if transition == "EnglishSegue" {
-//            var destination = segue.destination as! EnglishViewController
-//
-//            destination.userName = name;
-//        }
-//        if transition == "crosswordSegue" {
-//            var destination = segue.destination as! CrosswordViewController
-//
-//            destination.userName = name;
-//        }
+        if transition == "EnglishSegue" {
+            let destination = segue.destination as! EnglishViewController
+
+            destination.userName = name;
+        }
+        if transition == "crosswordSegue" {
+            let destination = segue.destination as! CrosswordViewController
+
+            destination.userName = name;
+        }
     }
 
 
