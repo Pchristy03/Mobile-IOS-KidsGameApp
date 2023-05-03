@@ -38,7 +38,7 @@ class ViewController: UIViewController {
         historyButtonOutlet.isEnabled = false
         artButtonOutlet.isEnabled = false
         
-        //uncomment once we have logic implemented
+        //uncomment once we have all sections in place
         //memoryMatcherOutlet.isEnabled = false
         //crosswordOutlet.isEnabled = false
         

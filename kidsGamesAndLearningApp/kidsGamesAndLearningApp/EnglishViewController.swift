@@ -15,27 +15,26 @@ class EnglishViewController: UIViewController {
     
     @IBOutlet weak var q1OL: UITextField!
     
+    @IBAction func q1textFieldAction(_ sender: Any) {
+        if (q1OL.hasText==true && q2OL.hasText==true){
+             checkOL.isEnabled=true
+         }
+         else{
+             checkOL.isEnabled=false
+         }
+    }
     
-    @IBAction func q1FieldCheck(_ sender: Any) {
-        if (q1OL.text=="" || q2OL.text==""){
-            checkOL.isEnabled=false
-        }
-        else{
-            checkOL.isEnabled=true
-        }
+    
+    @IBAction func q2textFieldAction(_ sender: Any) {
+        if (q1OL.hasText==true && q2OL.hasText==true){
+             checkOL.isEnabled=true
+         }
+         else{
+             checkOL.isEnabled=false
+         }
     }
     
     @IBOutlet weak var q2OL: UITextField!
-    
-    
-    @IBAction func q2FieldCheck(_ sender: Any) {
-       if (q1OL.text=="" || q2OL.text==""){
-            checkOL.isEnabled=false
-        }
-        else{
-            checkOL.isEnabled=true
-        }
-    }
     
     @IBOutlet weak var checkOL: UIButton!
     
@@ -48,6 +47,8 @@ class EnglishViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        checkOL.isEnabled = false;
         
         self.title = "Welcome \(userName)!"
         getVideo(videoCode: "LdCOswMeXFQ")
