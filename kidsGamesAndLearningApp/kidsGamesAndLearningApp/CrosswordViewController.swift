@@ -29,6 +29,7 @@ class CrosswordViewController: UIViewController {
     @IBOutlet weak var moon1OL: UITextField!
     @IBOutlet weak var moon2OL: UITextField!
     @IBOutlet weak var moon4OL: UITextField!
+    @IBOutlet weak var checkIMGOL: UIImageView!
     
     
     override func viewDidLoad() {
@@ -40,7 +41,29 @@ class CrosswordViewController: UIViewController {
     
     
     @IBAction func checkBTNAC(_ sender: Any) {
-        
+        if (matt1OL.text?.uppercased() == "M" &&
+            matt2OL.text?.uppercased() == "A" &&
+            matt3OL.text?.uppercased() == "T" &&
+            matt4OL.text?.uppercased() == "T" &&
+            matt5OL.text?.uppercased() == "E" &&
+            matt6OL.text?.uppercased() == "R" &&
+            vol1OL.text?.uppercased() == "V" &&
+            vol2OL.text?.uppercased() == "O" &&
+            vol3OL.text?.uppercased() == "L" &&
+            vol4OL.text?.uppercased() == "U" &&
+            vol5OL.text?.uppercased() == "M" &&
+            vol6OL.text?.uppercased() == "E" &&
+            math1OL.text?.uppercased() == "M" &&
+            math3OL.text?.uppercased() == "T" &&
+            math4OL.text?.uppercased() == "H" &&
+            moon1OL.text?.uppercased() == "M" &&
+            moon2OL.text?.uppercased() == "O" &&
+            moon4OL.text?.uppercased() == "N") {
+            checkIMGOL.image = UIImage(named: "checkMark")
+        }
+        else {
+            checkIMGOL.image = UIImage(named: "X")
+        }
     }
     
 
