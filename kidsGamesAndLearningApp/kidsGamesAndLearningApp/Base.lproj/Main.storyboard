@@ -806,7 +806,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Art" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5lF-jw-raG">
-                                <rect key="frame" x="177" y="107" width="60" height="50"/>
+                                <rect key="frame" x="123" y="107" width="60" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="60" id="0bk-aY-kBL"/>
                                     <constraint firstAttribute="height" constant="50" id="aSJ-15-PwK"/>
@@ -816,7 +816,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BPM-zW-aoA">
-                                <rect key="frame" x="57" y="187" width="300" height="200"/>
+                                <rect key="frame" x="3" y="187" width="300" height="200"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="WKN-ec-9b9"/>
@@ -838,14 +838,14 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Answer Here" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ql2-bm-8CT">
-                                <rect key="frame" x="75" y="492" width="219" height="34"/>
+                                <rect key="frame" x="75" y="492" width="110.5" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="170" id="aiq-Us-fpf"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
-                                    <action selector="answerOneEdit:" destination="sgr-R8-SJ0" eventType="editingDidEnd" id="w9a-O2-MKx"/>
+                                    <action selector="answerOneEdit:" destination="sgr-R8-SJ0" eventType="editingChanged" id="xHw-4f-Uem"/>
                                 </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What is Value?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8zd-lc-B8C">
@@ -866,11 +866,11 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
-                                    <action selector="answerTwoEdit:" destination="sgr-R8-SJ0" eventType="editingDidEnd" id="yHf-ks-lIB"/>
+                                    <action selector="answerTwoEdit:" destination="sgr-R8-SJ0" eventType="editingChanged" id="nF5-9a-T7h"/>
                                 </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BIF-FL-46K">
-                                <rect key="frame" x="132" y="665" width="150" height="35"/>
+                                <rect key="frame" x="78" y="665" width="150" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="7bk-y9-M5q"/>
                                     <constraint firstAttribute="height" constant="35" id="PE9-Ec-CDW"/>
@@ -892,7 +892,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XF8-9g-88N">
-                                <rect key="frame" x="319" y="492" width="45" height="45"/>
+                                <rect key="frame" x="210.5" y="492" width="45" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="AkQ-kM-jrI"/>
                                     <constraint firstAttribute="width" constant="45" id="syR-pc-JCA"/>
